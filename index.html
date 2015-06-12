@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Pan</title>
+    
+    
+    
+    
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <b>Pan's Stage 0 Project</b><br>
+Intro to the Web: Notes <br>
+<p>The Web was born in the  1990's. The World Wide Web is made up of HTML documents connected by <b><em>hyperlinks</em></b> thus creating a web of documents that are stored on servers all around the world. The servers communicate to each other through a <b><em>protocal</em></b> such as <b>HTTP.</b></p> 
+  
+<p><b><em>What is HTML?</em></b></p>
+  1. The text that you see<br>
+  2. Mark up language that determines what the page looks like.<br>
+  3. Reference to other documents<br>
+4. References to other pages. <br>
+
+<p><b>Try it out! Use HTML editor at <em>www.udacity.com/playground</em></b></p>
+<b>Markup</b><br>
+A markup code is called an <b><em>Element.</em></b><br>
+Looks like: (left arrow)<b>name</b>(/right arrow)<b>contents</b>(left arrow)<b>name</b>(/right arrow)<br>
+
+<p>Question: How do I type out the left and right arrow in HTML if I want to see them printed out and not as a part of code?</p>
+
+Self-Answer: You need entities! Reserved characters in HTML must be replaced with character entities. <br>
+The left angled bracket entity is: 	& + l + t + ;  (omit the plus signs) <br>
+The right angled bracket entity is: & + g + t + ; (omit the plus signs). <br>
+Here it is in action: 
+&lt; and &gt; <br>
+
+Characters, not present on your keyboard, can also be replaced by entities.<br>
+
+<p><b>Tags</b></p>
+Tags are what you type before and after each markup instruction. There is an opening tag and a closing tag.  It is a good habbit to create both the opening and closing tag at the same time so you don't forget.<br> Note: When you are writing code there is no need for spaces between the content and the open or closed tags.
+
+<p><b>Attributes</b></p>
+Attributes are element modifiers with a "value" that changes the content enclosed in an element.<br>
+Attribuites look like: &lt;<b>tag ATTR="value"</b>&gt;<b>content</b> &lt;<b>tag</b>&gt;<br>
+
+<p><b>Creating Links</b><br>
+  
+  An <b>Anchor tag</b> is an attribute that is used for making links. </p>
+
+Example: &lt;a href="value"&gt;content&lt;/a&gt;<br><br>
+<a href="http://www.udacity.com/playground">Visit Udacity HTML editor!</a>
+
+Note: you must include the space between the <b>a</b> and the <b>href.</b><br>
+
+<b>Images</b><br>
+&lt;img src="url" alt= "text"&gt;<br>
+Example: <h2>Spectacular Mountain</h2>
+<img src="pic_mountain.jpg" alt="Mountain View" style="width:304px;height:228px;"> <br><br>
+
+Question: What is a void tag?<br>
+Self-Answer: A void tag is the kind of tag that does not requre a close tag.  Most HTML elements require an open and closed tag. Void or Empty tags are exceptions to that rule because they, in themselves, do not have conent.  So a <b>Break</b> tag &lt;br&gt; is a void tag.
+
+<p><b>In-line elements vs. Block elements</b></p>
+HTML elements can be 'In-Line' or 'Block'. Block elements create an invisible box around the content.<br><br>
+Example: &lt;b&gt; ,&lt;em&gt;,&lt;img&gt;,and &lt;br&gt; are inline elements. 
+&lt;p&gt; ,&lt;/p&gt;,&lt;div&gt;
+&lt;/div&gt; are block elements
+<br>
+<p><b>Other Things I learned from Andy.</b>
+  How to make secret comments to yourself...
+<!-- This line is an HTML comment. -->
+<!-- Comments help PEOPLE read code. They are ignored by the computer. You should use comments to leave notes for yourself (and anyone else who might read your code later). -->
+<!--This is me making a secret note to myself. -->
+
+<!-- The <head> element contains information that won't be displayed on the page. -->
+<head>
+  <!-- The <title> element normally sets the name of the browser tab (but in this example codepen's title overrides the title I set) -->
+  <title>pancoder's Notes</title>
+</head>
+
+</p>
+<b></b>
+<b></b>
+    
+    
+    
+    
+    
+  </body>
+</html>
